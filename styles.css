@@ -509,6 +509,13 @@ body {
     color: var(--text-dark);
 }
 
+.plan-quota {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
 .price {
     display: flex;
     align-items: baseline;
