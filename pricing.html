@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>价格方案 - Cowork</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Cowork</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="index.html#features">功能特性</a></li>
+                <li><a href="index.html#use-cases">使用场景</a></li>
+                <li><a href="pricing.html" class="btn-nav active">查看价格</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 价格 Hero -->
+    <section class="pricing-hero">
+        <div class="container">
+            <h1>选择适合你的方案</h1>
+            <p>Cowork 作为功能预览提供给 Max 计划用户</p>
+        </div>
+    </section>
+
+    <!-- 价格卡片 -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-grid">
+                <!-- Free Plan -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <h3>Free</h3>
+                        <div class="price">
+                            <span class="currency">¥</span>
+                            <span class="amount">0</span>
+                            <span class="period">/月</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ 基础 Claude 对话</li>
+                        <li>✓ 有限的消息额度</li>
+                        <li>✓ 标准响应速度</li>
+                        <li>✗ 无 Cowork 访问</li>
+                        <li>✗ 无文件操作</li>
+                        <li>✗ 无子代理功能</li>
+                    </ul>
+                    <button class="btn btn-secondary btn-full">当前方案</button>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">¥</span>
+                            <span class="amount">149</span>
+                            <span class="period">/月</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ 更多消息额度</li>
+                        <li>✓ 优先访问新功能</li>
+                        <li>✓ 更快的响应速度</li>
+                        <li>✓ Claude Code 访问</li>
+                        <li>✗ 无 Cowork 访问</li>
+                        <li>✗ 无子代理功能</li>
+                    </ul>
+                    <button class="btn btn-secondary btn-full">选择 Pro</button>
+                </div>
+
+                <!-- Max Plan - Featured -->
+                <div class="pricing-card featured">
+                    <div class="badge">推荐</div>
+                    <div class="plan-header">
+                        <h3>Max</h3>
+                        <div class="price">
+                            <span class="currency">¥</span>
+                            <span class="amount">299</span>
+                            <span class="period">/月</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ 无限消息额度</li>
+                        <li>✓ 最快响应速度</li>
+                        <li>✓ 最先访问新功能</li>
+                        <li>✓ Claude Code 完整访问</li>
+                        <li>✓ <strong>Cowork 功能预览</strong></li>
+                        <li>✓ <strong>子代理并行处理</strong></li>
+                        <li>✓ <strong>本地文件操作</strong></li>
+                        <li>✓ <strong>MCP 连接器支持</strong></li>
+                        <li>✓ <strong>异步任务执行</strong></li>
+                    </ul>
+                    <button class="btn btn-primary btn-full">选择 Max</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能对比表 -->
+    <section class="comparison-table-section">
+        <div class="container">
+            <h2>详细功能对比</h2>
+            <div class="table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>功能</th>
+                            <th>Free</th>
+                            <th>Pro</th>
+                            <th>Max</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>每月消息额度</td>
+                            <td>有限</td>
+                            <td>5倍于 Free</td>
+                            <td>无限制</td>
+                        </tr>
+                        <tr>
+                            <td>Claude 对话</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Claude Code</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr class="highlight">
+                            <td><strong>Cowork 访问</strong></td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr class="highlight">
+                            <td><strong>本地文件操作</strong></td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr class="highlight">
+                            <td><strong>子代理并行处理</strong></td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr class="highlight">
+                            <td><strong>异步任务执行</strong></td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>MCP 连接器</td>
+                            <td>✗</td>
+                            <td>基础</td>
+                            <td>完整</td>
+                        </tr>
+                        <tr>
+                            <td>Chrome 集成</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>优先支持</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                            <td>✓✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>常见问题</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Cowork 只在 Max 计划中可用吗？</h3>
+                    <p>是的，Cowork 目前作为功能预览提供给 Max 计划用户。这是一个 macOS 桌面功能。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Cowork 需要互联网连接吗？</h3>
+                    <p>Cowork 在本地执行，直接访问你的文件。会话保留在你的设备上并使用你机器的资源，但仍需要网络连接与 Claude 通信。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>我可以随时取消订阅吗？</h3>
+                    <p>可以，你可以随时取消订阅。取消后，你将继续享有当前计费周期的访问权限。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>什么是子代理？</h3>
+                    <p>子代理是独立的 AI 实例，可以并行处理复杂任务的不同部分，每个都有全新的上下文，然后综合结果。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Cowork 支持哪些文件类型？</h3>
+                    <p>Cowork 可以读取和创建各种文件类型，包括文档、电子表格、演示文稿、文本文件等。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>我的数据安全吗？</h3>
+                    <p>是的，Cowork 在本地运行，会话保留在你的设备上。在写入文件之前会请求权限。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>准备好升级到 Max 了吗？</h2>
+            <p>立即解锁 Cowork 和所有高级功能</p>
+            <a href="#" class="btn btn-primary btn-large">开始使用 Max</a>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Cowork by Claude. 内容改编自官方教程以符合许可限制。</p>
+            <p><a href="https://claude.com/resources/tutorials/claude-cowork-a-research-preview" target="_blank">查看原始资源</a></p>
+        </div>
+    </footer>
+</body>
+</html>
